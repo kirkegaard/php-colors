@@ -59,7 +59,6 @@ class Colors {
         $str = isset($args[0]) ? $args[0] : '';
 
         $c = new Colors();
-
         return $c->_getColor($str, $fg, $bg);
     }
 
